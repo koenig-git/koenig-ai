@@ -9,12 +9,13 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
+    ffi (1.15.5)
     ffi (1.15.5-x64-mingw-ucrt)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
     i18n (1.10.0)
       concurrent-ruby (~> 1.0)
-    jekyll (4.2.1)
+    jekyll (4.2.2)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -64,10 +65,11 @@ GEM
     webrick (1.7.0)
 
 PLATFORMS
-  x64-mingw-ucrt
+  x64-unknown
+  x86_64-linux
 
 DEPENDENCIES
-  jekyll (= 4.2.1)!
+  jekyll (= 4.2.2)!
   ruby!
   tzinfo-data
   webrick (~> 1.7)
