@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Documentation
+title: Python
 description: >
   Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
 hide_description: true
@@ -16,11 +16,9 @@ While this manual tries to be beginner-friendly, as a user of Jekyll it is assum
 {:.note}
 
 
-## Getting started
-* [Install]{:.heading.flip-title} --- How to install and run Hydejack.
-* [Upgrade]{:.heading.flip-title} --- You can skip this if you haven't used Hydejack before.
-* [Config]{:.heading.flip-title} --- Once Jekyll is running you can start editing your config file.
-{:.related-posts.faded}
+~~~python 
+l = [i for i in range(0,10)]
+~~~
 
 ## Using Hydejack
 * [Basics]{:.heading.flip-title} --- How to add different types of content.
