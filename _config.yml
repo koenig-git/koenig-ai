@@ -22,8 +22,8 @@ title: Matt Grey
 long-title: Matt Grey Design
 email: mattgreydesign@gmail.com
 description: "The selected portfolio of London based digital product designer Matt Grey"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://himatt.com" # the base hostname & protocol for your site
+baseurl: "/koenig-ai" # the subpath of your site, e.g. /blog
+# url: "https://himatt.com" # the base hostname & protocol for your site
 timezone: Europe/London
 year: 2021
 start-year: 2010
