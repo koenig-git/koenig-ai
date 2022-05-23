@@ -1,47 +1,31 @@
 ---
 layout: page
-title: Python
+title: 'Single Source: Documentation'
 description: >
   Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
 hide_description: true
 sitemap: false
 permalink: /docs/
 ---
+<!-- 0. this unordered seed list will be replaced by toc as unordered list
+{:toc} -->
 
-Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
-Should you think something is missing, [please let me know](mailto:mail@qwtel.com).
-Should you discover a mistake in the docs (or a bug in general) feel free to [open an issue](https://github.com/hydecorp/hydejack/issues) on GitHub.
+Below you find snippets of code and knowledge that are stored for re-use in future projects. These bits of information come in extremely handy for me to avoid googling problems that I know I have solved before. 
 
-While this manual tries to be beginner-friendly, as a user of Jekyll it is assumed that you are comfortable running shell commands and editing text files.
+The pages below are intended mainly for my personal use and I cannot guarantee functionality beyond that scope. That said, if you come across an error or have suggestions for the page, feel free to let me know. 
 {:.note}
 
-
-~~~python 
-l = [i for i in range(0,10)]
-~~~
-
-## Using Hydejack
-* [Basics]{:.heading.flip-title} --- How to add different types of content.
-* [Writing]{:.heading.flip-title} --- Producing markdown content for Hydejack.
-* [Scripts]{:.heading.flip-title} --- How to include 3rd party scripts on your site.
-* [Build]{:.heading.flip-title} --- How to build the static files for deployment.
-* [Advanced]{:.heading.flip-title} --- Guides for more advanced tasks.
+## TABLE OF CONTENTS
+* [Notepad]{:.heading.flip-title} --- Unsorted notes for quick typing.
+* [Python]{:.heading.flip-title} --- A snake that does not bite.
+* [SQL]{:.heading.flip-title} --- From queries to ...?
+* [Concepts]{:.heading.flip-title} --- None-code like data warehousing or DBMS concepts.
+* [Science]{:.heading.flip-title} --- Anything theoretical from stats & causal inference to applied research.
 {:.related-posts.faded}
 
-## Other
-* [LICENSE]{:.heading.flip-title} --- The license of this project.
-* [NOTICE]{:.heading.flip-title} --- Parts of this program are provided under separate licenses.
-* [CHANGELOG]{:.heading.flip-title} --- Version history of Hydejack.
-{:.related-posts.faded}
+[Notepad]: notes.md
+[Python]: py.md
+[SQL]: SQL.md
+[Concepts]: concepts.md
+[Science]: science.md
 
-[install]: install.md
-[upgrade]: upgrade.md
-[config]: config.md
-[basics]: basics.md
-[writing]: writing.md
-[scripts]: scripts.md
-[build]: build.md
-[advanced]: advanced.md
-[LICENSE]: ../LICENSE.md
-[NOTICE]: ../NOTICE.md
-[CHANGELOG]: ../CHANGELOG.md
